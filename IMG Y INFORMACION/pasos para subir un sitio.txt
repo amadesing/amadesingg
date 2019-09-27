@@ -1,0 +1,93 @@
+Paso 1: Elige un servicio de hosting web confiable
+
+Primero lo primero, tendrás que encontrar el proveedor de hosting web adecuado. Crear un sitio web no es algo que deba tomarse a la ligera. Por lo tanto, debes elegir un proveedor de hosting de primer nivel que integre todas las características clave para impulsar tu proyecto web a lo más alto.
+
+Aquí hay algunos aspectos importantes que debes buscar en un proveedor de hosting web:
+
+
+Soporte en vivo. No hay peor sensación que encontrar un obstáculo y descubrir que no hay nadie para ayudarte. Si un proveedor de hosting web no ofrece chat en vivo o una línea telefónica directa, es posible que tengas dificultades de vez en cuando.
+Control sobre tu espacio de hosting web. Cuanto menos control tengas sobre tu cuenta, más probabilidades tendrás de tener problemas cuando tu sitio comience a crecer. Un buen ejemplo sería comparar WordPress.com con WordPress.org (la versión auto hospedada).
+Espacio para el crecimiento. Los sitios web más exitosos le apuestan al largo plazo. Antes de comprometerte con un proveedor, asegúrate de que tenga soluciones escalables en caso de que tu sitio web empiece a necesitar mayor potencia (como servidores privados virtuales VPS o cloud hosting)
+
+Garantía de devolución del dinero. A nadie le gusta una mala inversión, así que asegúrate de revisar la política de reembolso. Esto te dará un período de tiempo para probar todo antes de que te comprometas completamente a usar el servicio.
+Beneficios adicionales. ¿A quién no le gusta una buena oferta? Por ejemplo, nosotros incluimos un registro de dominio gratis con todos los planes anuales de hosting web (¡y el plan Empresarial también incluye un Certificado SSL de por vida gratis!). En resumen, trata de darle a tantos pájaros como puedas con una sola piedra.
+
+
+Paso 2: Elige el método para subir tu sitio web\
+
+El siguiente aspecto importante es elegir la herramienta adecuada para hacer el trabajo. Aquí hay cuatro de las herramientas más utilizadas para subir un sitio web:
+
+Administradores de archivos
+Una herramienta basada en navegador web con todas las características clave para encargarse de tus archivos y directorios. ¡También conseguirás uno de estos en Hostinger!
+
+Sin embargo, un inconveniente que puedes encontrar es el límite de carga. Si la copia de seguridad de tu sitio web tiene más de 256 MB, debes usar FTP.
+
+Protocolo de transferencia de archivos (FTP)
+Como todo proveedor de hosting incluye FTP de forma predeterminada, puedes usarlo para configurar un cliente FTP (como FileZilla). Todos los requisitos de conexión se encuentran en Cuentas FTP en la sección Archivos.
+
+Si decides subir tu página web mediante FTP, no habrá límites de tamaño. Esto significa que podrás importar tu archivo de copia de seguridad independientemente de qué tan grande sea.
+
+Importador automático de sitios web
+En Hostinger, también puedes encontrar una función llamada Importar sitio web. Puedes usarla para extraer un archivo web de hasta 256 MB directamente al directorio public_html.
+
+Paso 3: Sube el archivo del sitio y extráelo
+
+Ahora que ya conoces las mejores herramientas para subir un sitio web, es hora de hacer el trabajo sucio.
+
+Comencemos con el Administrador de archivos de Hostinger, nuestra herramienta personalizada está diseñada para facilitar el flujo de trabajo de todo webmaster. Cuando lo abras, selecciona el icono Subir archivos en el menú superior derecho.
+
+Y eso es todo por este paso. En el siguiente nos aseguraremos de que todos los archivos estén en la carpeta correcta.
+
+Si decides utilizar FTP con FileZilla para subir tu sitio, te recomendamos extraer el archivo de antemano en tu máquina local (ya que el cliente FTP no tiene una función de extracción)
+
+Paso 4: Asegúrate de que todos los archivos estén en public_html
+
+En este punto, debes asegurarte de que todos los archivos estén ubicados en el directorio raíz de tu dominio, que es public_html.
+
+En algunos casos, cuando extraes una copia de seguridad del sitio web, se creará un directorio adicional. Esto puede hacer que los archivos de tu sitio web se abran a través de ejemplo.com/otra-cosa en lugar de ejemplo.com
+
+El mensaje “Index of /” significa que tus archivos no están ubicados en el directorio correcto.
+
+Para mover tu sitio web de una subcarpeta al dominio base, puede usar un Administrador de archivos o FTP. Los pasos son:
+
+Accede al directorio donde se encuentran tus archivos.
+Selecciónalos todos, haz clic con el botón derecho y selecciona el botón Mover.
+Establece public_html como el destino y continúa.
+
+Paso 5: Importar la base de datos MySQL
+
+Si tu sitio web utiliza una base de datos, también tendrás que subirla. WordPress utiliza una por ejemplo.
+
+Sin embargo, si tu sitio web no utiliza una base de datos MySQL, simplemente puedes omitir esta parte.
+
+Los pasos para importar tu base de datos son:
+
+Crea una nueva base de datos y usuario MySQL.
+Accede a tu base de datos recién creada a través de phpMyAdmin.
+Utiliza la sección Import para subir el archivo de copia de seguridad.
+Actualiza los detalles de conexión de la base de datos MySQL (database name, host, user, password) en tus archivos de configuración.
+Para una explicación más detallada, consulta nuestra guía sobre cómo restaurar una base de datos usando phpMyAdmin.
+
+
+Paso 6: Comprueba que el sitio web funcione
+
+Luego de subir los archivos del sitio web, todo lo que tienes que hacer es revisar si funciona. Si tu dominio ya apunta a Hostinger, solo tendrás que abrir tu dominio a través de un navegador web.
+
+Ten en cuenta que si tu dominio fue apuntado a nuestros servidores recientemente, es posible que debas esperar hasta 24 horas para que el DNS se propague completamente en todo el mundo.
+
+En caso de que el dominio apunte a otro servidor, hay más formas de probar si todo funcionará:
+
+Utilizar el archivo hosts. Hay un archivo especial en tu computadora que puedes modificar para emular los cambios de DNS (si usas MacOS, consulta esta guía).
+Comprobar la disponibilidad a través de herramientas online. ¡Hay muchas que puedes utilizar! Además, son extremadamente fáciles de usar. Simplemente pega tu nombre de dominio y la herramienta hará el resto.
+Utilizar un plugin de navegador. Si configuras una extensión como Virtual Hosts, puedes usarla para probar los cambios de DNS. Todo lo que necesitas es el nombre de dominio y la dirección IP de tu cuenta (A record o registro A).
+Si seguiste todas las instrucciones correctamente, debería aparecer el contenido de tu sitio web. Pero en caso de que tengas algún problema, ¡estamos listos para ayudarte 24/7
+
+
+
+Enhorabuena, acabas de aprender a subir un sitio web a internet. Como puedes ver, puedes cargar muchos archivos a la vez utilizando un cliente FTP. Sin embargo, los archivos se cargarán uno a uno y puede tardar un tiempo.
+
+Por otro lado, la herramienta Administrador de archivos es extremadamente útil para importar uno o dos archivos rápidamente, hacer ajustes al código o subir un sitio web que no exceda los 256 MB de tamaño.
+
+¡En caso de que estés ansioso por empezar un blog o abrir una tienda online, ahora ya conoces todos los pasos necesarios para subir tu creación a la web!
+
+
